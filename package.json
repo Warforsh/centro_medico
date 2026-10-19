@@ -1,0 +1,9 @@
+{
+  "name": "centro-medico-premier",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.cjs",
+    "dev": "node build.cjs && npx --yes serve public -l 3000"
+  }
+}
